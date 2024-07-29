@@ -92,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['scheme_holder'])) {
     }}
 
 // Close connection
-$conn->close();
+$conn->close(); 
 ?>
 
 <!DOCTYPE html>

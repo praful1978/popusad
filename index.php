@@ -151,7 +151,8 @@ $conn->close();
             <input type="text" id="scheme_holder" name="scheme_holder" required>
             <button type="submit">Search</button>
         </form>
-    </div>
+        </div>
+        
         <div id="resultsContainer">
             <!-- Results will be displayed here -->
 <?php global $htmlContent; echo $htmlContent; ?>

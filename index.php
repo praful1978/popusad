@@ -98,7 +98,8 @@ $conn->close();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>प्रकल्प अधिकारी,पुसद,जिल्हा-यवतमाळ</title>
     <link rel="icon" href="popusadsymbol.png" type="image/x-icon">
     <style>

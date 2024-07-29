@@ -106,7 +106,7 @@ p {
 #div4 p{
     background-color: rgba(5, 232, 141, 0.919);
     color: rgb(10, 1, 1);
-    margin-top: 0;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 0px 10px 10px 10px;
     left: 100px;

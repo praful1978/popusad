@@ -1,9 +1,9 @@
 <?php
 // Database connection details
 $servername = "localhost";
-$username = "root";     // Replace with your MySQL username
-$password = "";     // Replace with your MySQL password
-$dbname = "yojana";         // Replace with your database name
+$username = "popusad";     // Replace with your MySQL username
+$password = "Gl(^BWI}5I0L";     // Replace with your MySQL password
+$dbname = "popusad_yojana";         // Replace with your database name
 
 // Enable error reporting for development
 error_reporting(E_ALL);
@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['scheme_holder'])) {
             echo "<p>Query: " . $sql . "</p>";
 
 
-            // Generate HTML for results table
+            
             if ($result->num_rows > 0) {
       
                 // $resultsHtml .= '<table class="table">';
@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['scheme_holder'])) {
                         <tr> <td>७</td> <td>योजना:</td> <td>' . $yojana . '</td> </tr>
                         <tr> <td>८</td> <td>योजना वर्ष:</td> <td>' . $year . '</td> </tr>
                     </table>';
-            // Close statement
+         
                 }
             }
         }

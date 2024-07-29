@@ -100,7 +100,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <title>प्रकल्प अधिकारी,पुसद,जिल्हा-यवतमाळ</title>
-    <link rel="icon" href="popusadsymbol.ico" type="image/x-icon">
+    <link rel="icon" href="popusadsymbol.png" type="image/x-icon">
     <style>
         table {
             border-collapse: collapse;

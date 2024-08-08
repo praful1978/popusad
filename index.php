@@ -1,10 +1,14 @@
 <?php
 // Database connection details
-$servername = "localhost";
-$username = "popusad";     // Replace with your MySQL username
-$password = "Gl(^BWI}5I0L";     // Replace with your MySQL password
-$dbname = "popusad_yojana";         // Replace with your database name
+// $servername = "localhost";
+// $username = "popusad";     // Replace with your MySQL username
+// $password = "Gl(^BWI}5I0L";     // Replace with your MySQL password
+// $dbname = "popusad_yojana";         // Replace with your database name
 
+$servername = "localhost";
+$username = "root";     // Replace with your MySQL username
+$password = "";     // Replace with your MySQL password
+$dbname = "popusad_yojana";         // Replace with your database name
 // Enable error reporting for development
 error_reporting(E_ALL);
 ini_set('display_errors', 1);

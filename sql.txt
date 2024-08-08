@@ -1,3 +1,0 @@
-INSERT INTO anudan_yadi (name, cast, post,gaon,taluka,prapt_aprapt,yojana,year)
-SELECT column1, column2, column3,Column_4,Column_5,Column_6,Column_7,Column_8
-FROM table1

@@ -85,7 +85,7 @@ img {
 #div1 {
     position: relative; 
      height: 200px; 
- 
+    margin-top: 10%;
     border-radius: 9px;
  padding: 20px; 
     text-overflow: ellipsis;
@@ -359,3 +359,6 @@ input[type="text"] {
         height:8px;
         background-color: rgb(10, 1, 1);
     } 
+    #div1{
+        margin-top:40%;
+    }

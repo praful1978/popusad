@@ -118,9 +118,9 @@ $conn->close();
         th {
             background-color:  rgba(5, 232, 141, 0.919);;
         }
-        .form-container {
+        /* .form-container {
             margin-bottom: 20px;
-        }
+        } */
         /* .fade-in {
             opacity: 0;
             transition: opacity 2s ease-in;

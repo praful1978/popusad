@@ -84,7 +84,8 @@ img {
 
 #div1 {
     position: relative; 
-     height: 200px; 
+    height: 200px; 
+    margin-top: 10%;;
     border-radius: 9px;
     padding: 20px; 
     text-overflow: ellipsis;
@@ -93,7 +94,6 @@ img {
 p {
     background-color: blueviolet;
     color: rgb(250, 248, 248);
-    margin-top: 40%;
     padding: 10px;
     border-radius: 0px 10px 10px 10px;
     left: 100px;

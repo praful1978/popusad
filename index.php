@@ -139,35 +139,43 @@ $conn->close();
 </head>
 <body class="container-fluid">
     <div class="col-12 position-fixed bg-info top-0 start-0 z-1">
-        <img src="popusadsymbol.png" alt="popusadsymbol">
-        <div class="col-12 text-center bg-info text-dark fw-bolder">
-            प्रकल्प अधिकारी,<br>एकात्मिक आदिवासी विकास प्रकल्प, पुसद, जिल्हा-यवतमाळ
-        </div>
+        <img src="popusadsymbol.png" alt="popusadsymbol" class="rounded mx-auto d-block">
+        <div class="col-12 text-center bg-info text-dark fw-bolder"> प्रकल्प अधिकारी,<br>एकात्मिक आदिवासी विकास प्रकल्प, पुसद, जिल्हा-यवतमाळ </div>
     </div>
 
     <div id="div1" class="col-12 z-0">
         <p id="intro" class="col-12">नमस्कार, मी प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प, पुसद जि.यवतमाळ आपले चॅटबॉट मध्ये स्वागत करत आहे.</p>
         <p id="info" class="col-12">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
-        <p id="prastavsthiti" class="col-12">२. तुमच्या प्रस्तावाची सद्यस्थिती तपासा</p>
-    </div>
 
-    <div id="div4">
-        <!-- Additional content can go here -->
-    </div>
+         <p id="prastavsthiti" class="col-12">२. तुमच्या प्रस्तावाची सद्यस्थिती तपासा</p>
+     </div>
+        <div id="div4" >
+        </div>
 
-    <div class="form-container">
+        <div class="form-container">
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="theForm">
             <label for="scheme_holder">लाभार्थ्याचे पूर्ण नाव :</label>
             <input type="text" id="scheme_holder" name="scheme_holder" required>
             <button type="submit">Search</button>
         </form>
-    </div>
-
-    <div id="resultsContainer">
-        <!-- Results will be displayed here -->
-        <?php global $htmlContent; echo $htmlContent; ?>
-    </div>
+        </div>
+        
+        <div id="resultsContainer">
+            <!-- Results will be displayed here -->
+<?php global $htmlContent; echo $htmlContent; ?>
+        </div>
 
     <script src="info.js"></script>
+
+
+
+    <!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const elements = document.querySelectorAll('.fade-in');
+        elements.forEach(el => {
+            el.classList.add('show');
+        });
+    });
+    </script> -->
 </body>
 </html>

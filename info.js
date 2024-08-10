@@ -955,8 +955,8 @@ $(document).ready(function () {
     p.attr("id", "prastavsthiti");
     $("#div4").append(p);
     $("#searchdata").show();
-    $("#prastavsthiti").hide();
-    $("#info").hide();
+    // $("#prastavsthiti").hide();
+    // $("#info").hide();
     $("#prastavana").hide();
     $("#prakalpnihaygaonsankhya").hide();
     $("#eklawya").hide();

@@ -107,6 +107,35 @@ $conn->close();
     <title>प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प, पुसद जि.यवतमाळ</title>
     <link rel="icon" href="popusadsymbol.png" type="image/x-icon">
     <style>
+        /* Basic styling for the container */
+        #div1 {
+            padding: 15px;
+        }
+
+        /* Responsive styling for paragraphs */
+        #div1 p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+
+        /* Ensure div4 takes up full width */
+        #div4 {
+            width: 100%;
+            padding: 15px;
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            #div1 p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #div1 p {
+                font-size: 0.8rem;
+            }
+        }
         table {
             border-collapse: collapse;
             width: 100%;
@@ -147,7 +176,7 @@ $conn->close();
         <p id="info" class="col-12">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
 
          <p id="prastavsthiti" class="col-12">२. तुमच्या प्रस्तावाची सद्यस्थिती तपासा</p>
-         </div>
+     </div>
         <div id="div4" >
         </div>
 

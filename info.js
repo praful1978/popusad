@@ -953,7 +953,7 @@ $(document).ready(function () {
 
     // var p = $('<span id="prastavsthiti">"खालील रिक्त जागेवर लाभार्थीचे नाव व आडनाव टाईप करून press बटन दाबा"</span>');
     // p.attr("id", "prastavsthiti");
-    $("#div4").append(p);
+    // $("#div4").append(p);
     $("#searchdata").show();
     // $("#prastavsthiti").hide();
     // $("#info").hide();

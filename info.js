@@ -10,7 +10,7 @@ $(document).ready(function () {
   $("#info").click(function () {
     var p = $('<p id="prastavana">१. प्रस्तावना</p>');
     $("#div4").append(p);
-    // $("#info").hide();
+    $("#info").hide();
     $("#prastavana").click(function () {
       $('#prastavana').load("display.html #prastavana");
 $("#prakalpnihaygaonsankhya").html('२. प्रकल्प निहाय गाव संख्या');

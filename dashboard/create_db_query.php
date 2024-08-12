@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$servername = "localhost:3306";  // or your server
+$servername = "localhost";  // or your server
 $username = "popusad";      // your database username
 $password = "Gl(^BWI}5I0L"; // your database password
 

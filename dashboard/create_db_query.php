@@ -1,5 +1,5 @@
 <?php
-
+ob_start(); 
 // $servername = "localhost";  // or your server
 // $username = "root";         // your database username
 // $password = "";             // your database password
@@ -30,4 +30,5 @@ if ($conn->query($sql) === TRUE) {
 
 // Close connection
 $conn->close();
+ob_end_flush(); // Flush output buffer and send output
 ?>

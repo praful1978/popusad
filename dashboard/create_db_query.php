@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 // Sanitize user input
 $database_name = isset($_POST['database_name']) ? $_POST['database_name'] : '';
 $database_year = isset($_POST['database_year']) ? $_POST['database_year'] : '';
-$database = $database_name . "_" . $database_year; // Adjust to avoid spaces
+$database = $database_name . " " . $database_year; // Adjust to avoid spaces
 
 // Escape the database name to prevent SQL injection
 $database = $conn->real_escape_string($database);

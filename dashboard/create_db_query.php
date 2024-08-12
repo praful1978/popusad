@@ -1,10 +1,9 @@
 <?php
-// Database configuration
+
 // $servername = "localhost";  // or your server
 // $username = "root";         // your database username
 // $password = "";             // your database password
 
-// Database configuration
 $servername = "localhost";  // or your server
 $username = "popusad";         // your database username
 $password = "Gl(^BWI}5I0L";             // your database password

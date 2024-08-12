@@ -27,11 +27,11 @@ $database = $conn->real_escape_string($database);
 // Create database
 $sql = "CREATE DATABASE `$database`";
 echo $sql;
-if ($conn->query($sql) === TRUE) {
-    echo '<script>alert("Database Created Successfully")</script>';
-} else {
-    echo '<script>alert("Error in creating Database: ' . $conn->error . '")</script>';
-}
+// if ($conn->query($sql) === TRUE) {
+//     echo '<script>alert("Database Created Successfully")</script>';
+// } else {
+//     echo '<script>alert("Error in creating Database: ' . $conn->error . '")</script>';
+// }
 
 // Close connection
 $conn->close();

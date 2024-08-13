@@ -25,7 +25,7 @@ $database = $database_name . " " . $database_year; // Adjust to avoid spaces
 $database = $conn->real_escape_string($database);
 
 // Create database
-$sql = "CREATE DATABASE $database";
+$sql = "CREATE DATABASE '$database'";
 echo $sql;
 if ($conn->query($sql) === TRUE) {
     echo '<script>alert("Database Created Successfully")</script>';

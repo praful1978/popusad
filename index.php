@@ -1,6 +1,6 @@
 <?php
 // Database connection details
-$servername = "localhost";
+$servername = "localhost:3306";
 $username = "popusad";     // Replace with your MySQL username
 $password = "Gl(^BWI}5I0L";     // Replace with your MySQL password
 $dbname = "popusad_yojana";         // Replace with your database name

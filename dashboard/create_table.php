@@ -1,20 +1,15 @@
-<?php
-// SQL query to create a table
-$sql = "
-CREATE TABLE my_table (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)";
-
-// Execute the query
-if ($mysqli->query($sql) === TRUE) {
-    echo "Table 'my_table' created successfully.";
-} else {
-    echo "Error creating table: " . $mysqli->error;
-}
-
-// Close the connection
-$mysqli->close();
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Record</title>
+</head>
+<body>
+    <h1>नवीन टेबल तयार करा:-  </h1>
+    <form action="create_table_query.php" method="post">
+        <label for="name">टेबलचे नाव:</label>
+        <input type="text" id="name" name="table_name" required>
+    </form>
+</body>
+</html>

@@ -2,11 +2,11 @@
 body{
     border:3px solid #363795;
 }
-.container-fluid {
+.container {
     border-radius: 10px;
     border-style: solid;
     border: 0;
-    background-color: brown;
+    background-color: #ffffff;
 }
 
 .image {
@@ -92,7 +92,7 @@ img {
     background-color: linear-gradient(-105deg, #009acc, #363795);
 }
 p {
-    background-color: blueviolet;
+    background-color: rgb(102 16 242);;
     color: rgb(250, 248, 248);
     padding: 10px;
     border-radius: 0px 10px 10px 10px;
@@ -130,7 +130,7 @@ p {
 }
 
 #intro {
-    background-color: blueviolet;
+    background-color: rgb(102 16 242);;
     /* animation: slideAnimationintro 1s ease-in-out; */
 }
 /* 
@@ -302,7 +302,6 @@ input[type="text"] {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
     width: 100%;
 }
 .form-container label {

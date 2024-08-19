@@ -104,7 +104,7 @@ $conn->close();
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प, पुसद जि.यवतमाळ</title>
+    <title>प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प, पुसद, जि.यवतमाळ</title>
     <link rel="icon" href="popusadsymbol.png" type="image/x-icon">
     <style>
       
@@ -117,10 +117,11 @@ $conn->close();
             padding: 8px;
         }
         th {
-            background-color:  rgba(5, 232, 141, 0.919);;
+            background-color:rgba(5, 232, 141, 0.919);
         }
         .form-container {
             margin-bottom: 20px;
+
         }
         /* .fade-in {
             opacity: 0;
@@ -136,26 +137,26 @@ $conn->close();
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
 </head>
-<body class="container-fluid">
+<body class="container">
     <div class="col-12 position-fixed bg-info top-0 start-0 z-1">
         <img src="popusadsymbol.png" alt="popusadsymbol" class="rounded mx-auto d-block">
-        <div class="col-12 text-center bg-info text-dark fw-bolder"> प्रकल्प अधिकारी,<br>एकात्मिक आदिवासी विकास प्रकल्प, पुसद, जिल्हा-यवतमाळ </div>
+        <div class="col-12 text-center bg-info text-dark fw-bolder"> प्रकल्प अधिकारी,<br>एकात्मिक आदिवासी विकास प्रकल्प, पुसद<br>जिल्हा-यवतमाळ </div>
     </div>
 
     <div id="div1" class="col-12 z-0">
         <p id="intro" class="col-12">नमस्कार, मी प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प, पुसद जि.यवतमाळ आपले चॅटबॉट मध्ये स्वागत करत आहे.</p>
         <p id="info" class="col-12">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
-        </div>
          <p id="prastavsthiti" class="col-12">२. तुमच्या प्रस्तावाची सद्यस्थिती तपासा</p>
-  
+         </div>
         <div id="div4" >
         </div>
 
         <div class="form-container">
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="theForm">
             <label for="scheme_holder">लाभार्थ्याचे पूर्ण नाव :</label>
-            <input type="text" id="scheme_holder" name="scheme_holder" required>
+            <input type="text" id="scheme_holder" name="scheme_holder" required >
             <button type="submit">Search</button>
         </form>
         </div>
@@ -167,15 +168,5 @@ $conn->close();
 
     <script src="info.js"></script>
 
-
-
-    <!-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const elements = document.querySelectorAll('.fade-in');
-        elements.forEach(el => {
-            el.classList.add('show');
-        });
-    });
-    </script> -->
 </body>
 </html>

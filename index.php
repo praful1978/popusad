@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['scheme_holder'])) {
               
                            // Generate the HTML content
                     $htmlContent = '
-                    <div id="sthiti" style="margin-top:50%;  font-size:18px;background-color:brown;" class="table text-white text-center">' . $name . ' यांच्या प्रस्तावाची सद्यस्थिती <br><p style="font-size:25px;background-color:brown;" class="table text-white text-center" > '. $patra_apatra. ' </p></div>
+                    <div id="sthiti" style="margin-top:100%;  font-size:18px;background-color:brown;" class="table text-white text-center">' . $name . ' यांच्या प्रस्तावाची सद्यस्थिती <br><p style="font-size:25px;background-color:brown;" class="table text-white text-center" > '. $patra_apatra. ' </p></div>
                     <table class="table">
                         <tr> <th> नाव </th> <th> जात </th> <th> गाव </th> </tr>
                         <tr> <td>१</td> <td>नाव:</td> <td>' . $name . '</td> </tr>

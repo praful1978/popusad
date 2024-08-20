@@ -140,7 +140,7 @@ $conn->close();
     
 </head>
 <body class="container">
-    <div class="col-12 top-0 start-0 z-1">
+    <div class="col-12 position-fixed top-0 start-0 z-1">
         <div class="bg-info">
         <img src="popusadsymbol.png" alt="popusadsymbol" class="rounded mx-auto d-block">
         <div class="col-12 text-center bg-info text-dark fw-bolder"> प्रकल्प अधिकारी,<br>एकात्मिक आदिवासी विकास प्रकल्प, पुसद<br>जिल्हा-यवतमाळ </div>
@@ -162,11 +162,11 @@ $conn->close();
         </div>
 
         <p id="info" class="col-12" style="width:90%;margin-left:20px;">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
-        <div id="div4">
+
+    </div>  
+    <div id="div4">
         <?php global $htmlContent; echo $htmlContent; ?>
         </div>
-    </div>  
-
         <div id="resultsContainer">
             <!-- Results will be displayed here -->
             

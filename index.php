@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['scheme_holder'])) {
               
                            // Generate the HTML content
                     $htmlContent = '
-                    <div id="sthiti" style="margin-top:120%;  font-size:18px;background-color:brown;" class="table text-white text-center">' . $name . ' यांच्या प्रस्तावाची सद्यस्थिती <br><p style="font-size:25px;background-color:brown;" class="table text-white text-center" > '. $patra_apatra. ' </p></div>
+                    <div id="sthiti" style="font-size:18px;background-color:brown;" class="table text-white text-center">' . $name . ' यांच्या प्रस्तावाची सद्यस्थिती <br><p style="font-size:25px;background-color:brown;" class="table text-white text-center" > '. $patra_apatra. ' </p></div>
                     <table class="table">
                         <tr> <th> नाव </th> <th> जात </th> <th> गाव </th> </tr>
                         <tr> <td>१</td> <td>नाव:</td> <td>' . $name . '</td> </tr>
@@ -152,11 +152,11 @@ $conn->close();
 
 
 
-        <div class="form-container bg-info" style="width:90%;margin-left:20px;">
+        <div class="form-container bg-info" style="width:90%;margin-left:20px;" id="searchcontainer">
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="theForm">
             <label for="scheme_holder"><a style="color:black;">लाभार्थ्याचे पूर्ण नाव :</label>
             <input type="text" id="scheme_holder" name="scheme_holder" required >
-            <button type="submit"><a style="color:black;font-size:25px;">शोधा</a></button>
+            <button type="submit" onclik="hide;"><a style="color:black;font-size:25px;">शोधा</a></button>
         </form>
 
         </div>
@@ -170,6 +170,12 @@ $conn->close();
 
 
     <script src="info.js"></script>
+<script>
+    function hide(){
+        document.getElementById('searchcontainer').style.visibility=hidden;
+    }
+
+</script>
 
 </body>
 </html>

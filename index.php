@@ -140,7 +140,7 @@ $conn->close();
     
 </head>
 <body class="container">
-    <div class="col-12 top-0 start-0 z-1">
+    <div class="col-12 position-fixed top-0 start-0 z-1">
         <div class="bg-info">
         <img src="popusadsymbol.png" alt="popusadsymbol" class="rounded mx-auto d-block">
         <div class="col-12 text-center bg-info text-dark fw-bolder"> प्रकल्प अधिकारी,<br>एकात्मिक आदिवासी विकास प्रकल्प, पुसद<br>जिल्हा-यवतमाळ </div>

@@ -158,16 +158,18 @@ $conn->close();
             <input type="text" id="scheme_holder" name="scheme_holder" required >
             <button type="submit"><a style="color:black;font-size:25px;">शोधा</a></button>
         </form>
+
         </div>
-        <p id="info" class="col-12">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
+
+        <p id="info" class="col-12" style="width:90%;margin-left:20px;">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
         <div id="div4">
-            
-            </div>
+        <?php global $htmlContent; echo $htmlContent; ?>
+        </div>
     </div>  
 
         <div id="resultsContainer">
             <!-- Results will be displayed here -->
-<?php global $htmlContent; echo $htmlContent; ?>
+            
         </div>
 
     <script src="info.js"></script>

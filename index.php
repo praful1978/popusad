@@ -167,10 +167,7 @@ $conn->close();
     <div id="div4">
         <?php global $htmlContent; echo $htmlContent; ?>
         </div>
-        <div id="resultsContainer">
-            <!-- Results will be displayed here -->
-            
-        </div>
+
 
     <script src="info.js"></script>
 

@@ -139,7 +139,7 @@ $conn->close();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
 </head>
-<body class="container" style="overflow:scroll;">
+<body class="container">
     <div class="col-12 position-fixed top-0 start-0 z-1">
         <div class="bg-info">
         <img src="popusadsymbol.png" alt="popusadsymbol" class="rounded mx-auto d-block">
@@ -156,7 +156,7 @@ $conn->close();
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="theForm">
             <label for="scheme_holder"><a style="color:black;">लाभार्थ्याचे पूर्ण नाव :</label>
             <input type="text" id="scheme_holder" name="scheme_holder" required >
-            <button type="submit" onclik="hide;"><a style="color:black;font-size:25px;">शोधा</a></button>
+            <button type="submit""><a style="color:black;font-size:25px;">शोधा</a></button>
         </form>
 
         </div>
@@ -170,12 +170,7 @@ $conn->close();
 
 
     <script src="info.js"></script>
-<script>
-    function hide(){
-        document.getElementById('searchcontainer').style.visibility=hidden;
-    }
 
-</script>
 
 </body>
 </html>

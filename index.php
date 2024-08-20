@@ -104,6 +104,10 @@ $conn->close();
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project officer, pusad district yavatmal">
+  <meta name="keywords" content="pusad">
+  <meta name="author" content="Atmaram Dhabe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प, पुसद, जि.यवतमाळ</title>
     <link rel="icon" href="popusadsymbol.png" type="image/x-icon">
     <style>

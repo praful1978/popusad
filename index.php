@@ -162,10 +162,10 @@ $conn->close();
         </div>
 
         <p id="info" class="col-12" style="width:90%;margin-left:20px;">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
-       
+        <?php global $htmlContent; echo $htmlContent; ?>
     </div>  
 
-    <?php global $htmlContent; echo $htmlContent; ?>
+ 
 
 
 

@@ -1,14 +1,14 @@
 <?php
 // Database connection details
-$servername = "localhost";
-$username = "popusad";     // Replace with your MySQL username
-$password = "Gl(^BWI}5I0L";     // Replace with your MySQL password
-$dbname = "popusad_yojana";         // Replace with your database name
-
 // $servername = "localhost";
-// $username = "root";     // Replace with your MySQL username
-// $password = "";     // Replace with your MySQL password
+// $username = "popusad";     // Replace with your MySQL username
+// $password = "Gl(^BWI}5I0L";     // Replace with your MySQL password
 // $dbname = "popusad_yojana";         // Replace with your database name
+
+$servername = "localhost";
+$username = "root";     // Replace with your MySQL username
+$password = "";     // Replace with your MySQL password
+$dbname = "popusad_yojana";         // Replace with your database name
 // Enable error reporting for development
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -139,7 +139,7 @@ $conn->close();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
 </head>
-<body class="container">
+<body class="container" style="overflow:scroll;">
     <div class="col-12 position-fixed top-0 start-0 z-1">
         <div class="bg-info">
         <img src="popusadsymbol.png" alt="popusadsymbol" class="rounded mx-auto d-block">
@@ -162,11 +162,11 @@ $conn->close();
         </div>
 
         <p id="info" class="col-12" style="width:90%;margin-left:20px;">१. प्रकल्प अधिकारी, पुसद द्वारे कार्यान्वित योजनांची माहिती</p>
-        <?php global $htmlContent; echo $htmlContent; ?>
+       
     </div>  
-    <div id="div4">
 
-    </div>
+    <?php global $htmlContent; echo $htmlContent; ?>
+
 
 
     <script src="info.js"></script>

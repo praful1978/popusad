@@ -45,8 +45,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['scheme_holder'])) {
             $result = $stmt->get_result();
 
             // Debugging output
-            echo "<p>Search Term: " . htmlspecialchars($searchTerm) . "</p>";
-            echo "<p>Query: " . $sql . "</p>";
+            // echo "<p>Search Term: " . htmlspecialchars($searchTerm) . "</p>";
+            // echo "<p>Query: " . $sql . "</p>";
 
 
             

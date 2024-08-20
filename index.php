@@ -152,7 +152,7 @@ $conn->close();
 
 
 
-        <div class="form-container bg-info" style="margin-top:10px;width:90%;margin-left:20px;">
+        <div class="form-container bg-info" style="width:90%;margin-left:20px;">
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" id="theForm">
             <label for="scheme_holder"><a style="color:black;">लाभार्थ्याचे पूर्ण नाव :</label>
             <input type="text" id="scheme_holder" name="scheme_holder" required >
